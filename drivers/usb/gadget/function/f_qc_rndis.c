@@ -1553,6 +1553,6 @@ static void __exit usb_qcrndis_exit(void)
 	usb_function_unregister(&rndis_bamusb_func);
 }
 
-module_init(usb_qcrndis_init);
-module_exit(usb_qcrndis_exit);
+//module_init(usb_qcrndis_init);
+//module_exit(usb_qcrndis_exit);
 MODULE_DESCRIPTION("USB RMNET Function Driver");
